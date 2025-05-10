@@ -1,0 +1,98 @@
+main {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+main > section {
+  padding: 5rem 0rem;
+  display: flex;
+  height: auto;
+  flex-flow: row wrap;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+main section .Text {
+  width: 52.5%;
+}
+main section .Text h2 {
+  font-weight: 600;
+  font-size: 53px;
+}
+
+main section .Text p {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: justify;
+}
+
+main .OurBoss {
+  flex-flow: row-reverse wrap;
+}
+
+main .DoYouWant {
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: self-start;
+  padding: 0 5rem;
+  padding-bottom: 10rem;
+}
+
+main .DoYouWant h2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+main .DoYouWant .text {
+  display: flex;
+  width: 45%;
+  flex-flow: column wrap;
+}
+main .DoYouWant .text p {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: justify;
+  color: #000000;
+}
+main .DoYouWant > .text > .btn {
+  justify-content: end;
+}
+
+main .Others {
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+main .Others h2 {
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+}
+.Others > ul {
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.Others > ul > li {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Others > ul li img {
+  width: 70px;
+}
+
+.Others > ul > li > h4 {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #e94e1a;
+}
