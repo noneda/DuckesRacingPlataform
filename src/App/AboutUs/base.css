@@ -3,6 +3,7 @@ main .AboutUsPanel {
   padding-top: 0;
   width: 100%;
   z-index: 1;
+  background-color: #252525;
 }
 
 main .AboutUsPanel > img {
@@ -72,4 +73,25 @@ main .WhoIsItFor {
 
 main .WhoIsItFor > .Text {
   width: 60%;
+}
+
+main .ItsPart {
+  width: 90%;
+  flex-flow: column wrap;
+  align-items: baseline;
+}
+
+main .ItsPart > h2 {
+  font-family: "DaggerSquare", sans-serif;
+  color: var(--color-primary);
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+main .ItsPart > p {
+  font-family: "Techovier", sans-serif;
+  color: var(--color-primary);
+  font-size: 14px;
+  font-style: normal;
 }

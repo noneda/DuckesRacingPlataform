@@ -7,11 +7,21 @@ const Layout = () => {
         <img src="/Layout/Header/icon.svg" alt="Icon" />
         <nav>
           <ul>
-            <li>INICIO</li>
-            <li>MÁS DE NOSOTROS</li>
-            <li>INFORMACIÓN GENERAL</li>
-            <li>NUESTROS PRODUCTOS</li>
-            <li>EVENTO</li>
+            <li>
+              <a href="/">INICIO</a>
+            </li>
+            <li>
+              <a href="/about-us">MÁS DE NOSOTROS</a>
+            </li>
+            <li>
+              <a href="#">INFORMACIÓN GENERAL</a>
+            </li>
+            <li>
+              <a href="#">NUESTROS PRODUCTOS</a>
+            </li>
+            <li>
+              <a href="#">NUESTROS PRODUCTOS</a>
+            </li>
           </ul>
         </nav>
         <img src="/Layout/Header/icon-whatsapp.svg" alt="Icon WhatsApp" />

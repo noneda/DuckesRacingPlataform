@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <main>
       <section className="HomePage">
-        <img src="/App/Home/HomeAdobe.webp" alt="Home Image" />
+        <img src="/App/Home/HomeAdobe.webp" alt="Home Image" width="" />
         <div className="Above">
           <img src="/App/Home/Adobe.svg" alt="Adobe" />
         </div>

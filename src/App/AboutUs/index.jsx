@@ -43,6 +43,33 @@ const AboutUs = () => {
           </p>
         </div>
       </section>
+      <section className="ItsPart">
+        <h2>¡SE PARTE DE NUESTRA COMUNIDAD!</h2>
+        <p>
+          Descubre mas sobre esta comunidad apasionadas por las motos
+          deportivas.
+        </p>
+        <form>
+          <section className="Form-Text">
+            <div className="Container">
+              <label htmlFor="Name">NOMBRE</label>
+              <input type="text" name="Name" />
+            </div>
+            <div className="Container">
+              <label htmlFor="CellphoneNumber">NUMERO DE DOCUMENTO</label>
+              <input type="text" name="CellphoneNumber" />
+            </div>
+            <div className="Container">
+              <label htmlFor="City">CIUDAD/LUGAR DE RESIDENCIA</label>
+              <input type="text" name="City" />
+            </div>
+            <div className="Container">
+              <label htmlFor="Email">CORREO</label>
+              <input type="text" name="Email" />
+            </div>
+          </section>
+        </form>
+      </section>
     </main>
   );
 };
