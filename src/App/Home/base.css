@@ -1,9 +1,17 @@
 main .HomePage {
   position: relative;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   width: 100%;
   padding-top: 0;
   background-color: #252525;
+}
+
+main .HomePage > img {
+  background-position: left;
+  background-size: cover;
 }
 
 main .HomePage .Above {

@@ -2,7 +2,29 @@ import "./base.css";
 const AboutUs = () => {
   return (
     <main>
-      <section className="AboutUsPanel"></section>
+      <section className="AboutUsPanel">
+        <img src="/App/AboutUs/Banner.webp" alt="Banner" />
+        <div className="Above">
+          <div className="container">
+            <h3>Dukes Racing</h3>
+            <p>
+              Dukes Racing es una comunidad de la ciudad de Bogotá conformada
+              por personas de distintas edades, apasionadas por el motociclismo,
+              la velocidad y la hermandad entre miembros, al ser una comunidad
+              que se conformó hace aproximadamente 1 año, su visibilidad es
+              limitada, lo que reduce la posibilidad de atraer nuevos
+              integrantes o seguidores. Mediante este proyecto se propone el
+              desarrollo de una estrategia de comunicación visual efectiva a
+              través de diferentes piezas gráficas que reflejan la esencia y
+              valores de la comunidad, respondiendo a las necesidades de esta
+              misma con el fin de fortalecer la identidad por medios digitales y
+              físicos y llamar la atención de nuevas personas que se
+              identifiquen, puedan y quieran pertenecer a dicho grupo.
+            </p>
+          </div>
+          <img src="/App/AboutUs/AboutUsContainer.webp" alt="" />
+        </div>
+      </section>
       <section className="WhoIsItFor">
         <img
           src="/App/AboutUs/WhoIsItFor.svg"
