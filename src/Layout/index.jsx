@@ -4,8 +4,8 @@ const Layout = () => {
   return (
     <>
       <header>
-        <img src="/Header/icon.svg" alt="Icon" />
-        <nav className="lists">
+        <img src="/Layout/Header/icon.svg" alt="Icon" />
+        <nav>
           <ul>
             <li>INICIO</li>
             <li>MÁS DE NOSOTROS</li>
@@ -14,7 +14,7 @@ const Layout = () => {
             <li>EVENTO</li>
           </ul>
         </nav>
-        <img src="/Header/icon-whatsapp.svg" alt="Icon WhatsApp" />
+        <img src="/Layout/Header/icon-whatsapp.svg" alt="Icon WhatsApp" />
       </header>
       <Outlet />
       <footer>
@@ -23,28 +23,22 @@ const Layout = () => {
             <h3>REDES</h3>
             <ul>
               <li>
-                <img src="/Footer/Icons/TikTok.svg" alt="TikTok" />
+                <img src="/Layout/Footer/Icons/TikTok.svg" alt="TikTok" />
               </li>
               <li>
-                <img src="/Footer/Icons/WhatsApp.svg" alt="TikTok" />
+                <img src="/Layout/Footer/Icons/WhatsApp.svg" alt="TikTok" />
               </li>
               <li>
-                <img src="/Footer/Icons/Instagram.svg" alt="TikTok" />
+                <img src="/Layout/Footer/Icons/Instagram.svg" alt="TikTok" />
               </li>
             </ul>
           </div>
-          <div className="legal">
-            <h3>LEGAL</h3>
-            <h4>TERMINOS Y CONDICIONES</h4>
-            <p>no se</p>
-            <p>no se</p>
-          </div>
         </section>
-        <img src="/Footer/line.svg" alt="Separate" />
+        <img src="/Layout/Footer/line.svg" alt="Separate" />
         <section className="back-to-top">
           <div className="container">
             <button>
-              <img src="/Footer/backtotop.svg" alt="Icon" />
+              <img src="/Layout/Footer/backtotop.svg" alt="Icon" />
               <h3>VOLVER ARRIBA</h3>
             </button>
           </div>

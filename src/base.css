@@ -1,4 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@font-face {
+  font-family: "DaggerSquare";
+  src: url("/Typographic/daggersquare/DAGGERSQUARE.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DaggerSquare-Oblique";
+  src: url("/Typographic/daggersquare/DAGGERSQUARE\ OBLIQUE.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Techovier";
+  src: url("/Typographic/technovier/Techovier\ .otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Techovier-Bold";
+  src: url("/Typographic/technovier/Techovier\ Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 :root {
   --color-primary: #e94e1b;
@@ -11,7 +38,7 @@
 body {
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: auto;
   padding: 0;
   margin: 0;
@@ -42,6 +69,44 @@ button {
   color: var(--color-primary);
 }
 
+main {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+main > section {
+  padding: 5rem 0rem;
+  display: flex;
+  height: auto;
+  flex-flow: row wrap;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+main section .Text {
+  width: 49%;
+}
+main section .Text h3 {
+  font-family: "DaggerSquare", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 40px;
+  color: var(--color-primary);
+}
+
+main section .Text p {
+  font-family: "Techovier", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: oblique;
+  line-height: 26px;
+  text-align: justify;
+}
+
 .lists > ul {
   display: flex;
   gap: 2rem;
@@ -49,6 +114,7 @@ button {
   padding: 0;
   margin: 0;
 }
+
 .lists > ul li {
   list-style-type: none;
 }
@@ -56,10 +122,8 @@ button {
 .lists > ul li img {
   width: 40px;
 }
-
-#root {
-  width: 100%;
-  height: auto;
-
-  font-family: "Inter", sans-serif;
+@media screen and (min-width: 1440px) {
+  #root {
+    width: 100%;
+  }
 }

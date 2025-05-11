@@ -1,0 +1,10 @@
+main .AboutUsPanel {
+}
+
+main .WhoIsItFor {
+  flex-flow: row-reverse wrap;
+}
+
+main .WhoIsItFor > .Text {
+  width: 60%;
+}

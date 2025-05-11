@@ -1,33 +1,23 @@
-main {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
+main .HomePage {
+  position: relative;
+  z-index: 1;
   width: 100%;
-  height: auto;
+  padding-top: 0;
+  background-color: #252525;
 }
 
-main > section {
-  padding: 5rem 0rem;
-  display: flex;
-  height: auto;
-  flex-flow: row wrap;
-  justify-items: center;
-  justify-content: space-evenly;
+main .HomePage .Above {
+  position: absolute;
+  left: 0;
+  z-index: 2;
 }
 
-main section .Text {
-  width: 52.5%;
-}
-main section .Text h2 {
-  font-weight: 600;
-  font-size: 53px;
-}
-
-main section .Text p {
-  font-weight: 300;
-  font-size: 24px;
-  text-align: justify;
+main .HomePage .Above .text {
+  position: absolute;
+  width: auto;
+  height: max-content;
+  top: 0;
+  z-index: 1;
 }
 
 main .OurBoss {
@@ -65,14 +55,16 @@ main .DoYouWant > .text > .btn {
 }
 
 main .Others {
+  padding-top: 1rem;
   flex-flow: column wrap;
   width: 100%;
 }
 
 main .Others h2 {
-  font-size: 32px;
-  line-height: 39px;
+  font-family: "DaggerSquare", sans-serif;
+  font-size: 24px;
   text-align: center;
+  color: var(--color-primary);
 }
 .Others > ul {
   justify-content: space-evenly;
@@ -82,17 +74,19 @@ main .Others h2 {
 .Others > ul > li {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  width: 200px;
 }
 
 .Others > ul li img {
   width: 70px;
 }
 
-.Others > ul > li > h4 {
-  font-size: 30px;
-  line-height: 36px;
+.Others > ul > li > h5 {
+  font-family: "DaggerSquare", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
   text-align: center;
-  color: #e94e1a;
+  color: var(--color-primary);
 }
