@@ -14,6 +14,9 @@ main .AboutUsPanel > img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* Rectangle 33 */
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
 
 main .AboutUsPanel > .Above {
@@ -102,4 +105,89 @@ main .ItsPart > p {
   color: var(--color-primary);
   font-size: 14px;
   font-style: normal;
+}
+
+form > .Form-Info {
+  width: 35%;
+  margin: 2rem;
+}
+form > .Form-Info > div {
+  width: 100%;
+  height: 70%;
+  border-right: 1px solid white;
+  color: white;
+}
+
+.Form-Info > div > h3 {
+  font-family: "DaggerSquare", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.Form-Info > div > ul {
+  font-family: "Interstate-light", sans-serif;
+  padding: 0 1rem;
+}
+
+.Form-Info > div > ul > li {
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 3px 1px;
+}
+
+.Form-Info > div > p {
+  font-family: "Interstate-light", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.Form-Info > div > h3 > a {
+  color: var(--color-primary);
+}
+
+form > .Form-Text > .form-link {
+  font-family: "DaggerSquare-Oblique", sans-serif;
+  font-size: 20px;
+  color: var(--color-primary);
+
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: end;
+  gap: 4rem;
+}
+
+form > .Form-Text > .form-link > h4 > a {
+  color: var(--color-quaternary);
+  text-decoration: none;
+}
+
+form > .Form-Text > .btn-submit {
+  background-color: var(--color-quaternary);
+  text-align: center;
+  padding: 1.25rem 5rem;
+  font-family: "DaggerSquare-Oblique", sans-serif;
+  font-size: 20px;
+  border-radius: 7px;
+  color: white;
+}
+
+main .ButtomPicture {
+  width: 100%;
+  display: flex;
+  padding-top: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+main .ButtomPicture img {
+  height: auto;
+  width: 80%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

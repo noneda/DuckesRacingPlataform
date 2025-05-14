@@ -3,7 +3,7 @@ const AboutUs = () => {
   return (
     <main>
       <section className="AboutUsPanel">
-        <img src="/App/AboutUs/Banner.webp" alt="Banner" />
+        <img src="/App/Banner-principal-1-2.webp" alt="Banner" />
         <div className="Above">
           <div className="container">
             <h3>Dukes Racing</h3>
@@ -32,44 +32,92 @@ const AboutUs = () => {
           height="350px"
         />
         <div className="Text">
-          <h3>¡Bienvenido a DUKE’s Racing!</h3>
+          <h3>¿A QUIEN VA DIRIGIDO?</h3>
           <p>
-            Donde la velocidad, la hermandad y la pasión por las motos
-            deportivas definen nuestro estilo de vida. Somos una comunidad
-            independiente, unida por el amor a las rutas, la adrenalina y el
-            diseño potente sobre dos ruedas. Aquí no solo rodamos, vivimos para
-            rodar. Si compartes la emoción de correr libre, desafiar límites y
-            ser parte de una familia que respira motores, ¡este es tu lugar!
+            DUKES RACING está pensado para apasionados del motociclismo
+            deportivo que buscan algo más que velocidad: buscan una comunidad.
+            Esta plataforma está dirigida a riders jóvenes y adultos con
+            espíritu competitivo, con interes en la aventura y por las motos de
+            alto rendimiento. También está abierta a quienes están iniciando en
+            este mundo y quieren aprender, conectar y formar parte de un grupo
+            con valores de respeto, libertad y adrenalina compartida.
           </p>
         </div>
       </section>
       <section className="ItsPart">
         <h2>¡SE PARTE DE NUESTRA COMUNIDAD!</h2>
         <p>
-          Descubre mas sobre esta comunidad apasionadas por las motos
-          deportivas.
+          Unirte a la comunidad te conecta, te protege, te enseña y te impulsa.
+          No solo se trata de motos, sino de crecer y disfrutar con otros que
+          viven tu misma pasión.
         </p>
         <form>
-          <section className="Form-Text">
-            <div className="Container">
-              <label htmlFor="Name">NOMBRE</label>
-              <input type="text" name="Name" />
-            </div>
-            <div className="Container">
-              <label htmlFor="CellphoneNumber">NUMERO DE DOCUMENTO</label>
-              <input type="text" name="CellphoneNumber" />
-            </div>
-            <div className="Container">
-              <label htmlFor="City">CIUDAD/LUGAR DE RESIDENCIA</label>
-              <input type="text" name="City" />
-            </div>
-            <div className="Container">
-              <label htmlFor="Email">CORREO</label>
-              <input type="text" name="Email" />
+          <section className="Form-Info">
+            <div>
+              <h3>¿POR QUE UNIRTE A DUKES RACING?</h3>
+              <ul>
+                <li>Comunidad actividad en redes sociales</li>
+                <li>Rodadas organizadas</li>
+                <li>Inscripción gratuita</li>
+              </ul>
+              <h3>¿TIENES UNA DUDA O NECESITAS AYUDA?</h3>
+              <p>
+                Si necesitas más información sobre este evento o deseas resolver
+                cualquier duda antes de inscribirte, no dudes en contactarnos:
+              </p>
+              <h3>INSTAGRAM</h3>
+              <h3>
+                <a href="">@duke.racing_</a>
+              </h3>
             </div>
           </section>
-          <button className="btn" type="submit"></button>
+          <section className="Form-Text">
+            <div className="Container">
+              <label htmlFor="Name">NOMBRE COMPLETO*</label>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Ingresa tu nombre y apellido completo"
+              />
+            </div>
+            <div className="Container">
+              <label htmlFor="CellphoneNumber">TELEFONO*</label>
+              <input
+                type="text"
+                name="CellphoneNumber"
+                placeholder="Ingresa tu numero telefónico"
+              />
+            </div>
+            <div className="Container">
+              <label htmlFor="City">CIUDAD/LUGAR DE RESIDENCIA*</label>
+              <input
+                type="text"
+                name="City"
+                placeholder="Ingresa tu dirección de residencia"
+              />
+            </div>
+            <div className="Container">
+              <label htmlFor="Email">CORREO*</label>
+              <input
+                type="text"
+                name="Email"
+                placeholder="Ingresa tu correo electronico"
+              />
+            </div>
+            <div className="form-link">
+              <h4>Quieres ir a un Evento?</h4>
+              <h4>
+                Click <a href="#">Aqui</a>
+              </h4>
+            </div>
+            <button className="btn-submit" type="submit">
+              Continuar
+            </button>
+          </section>
         </form>
+        <section className="ButtomPicture">
+          <img src="/App/AboutUs/ButtomPicture.svg" alt="SAPAAAA" />
+        </section>
       </section>
     </main>
   );

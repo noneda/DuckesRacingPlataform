@@ -34,6 +34,10 @@ main .OurBoss {
   flex-flow: row-reverse wrap;
 }
 
+main .OurBoss > img {
+  border-radius: 50%;
+}
+
 main .DoYouWant {
   flex-flow: column wrap;
   justify-content: start;

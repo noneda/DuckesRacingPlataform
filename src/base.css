@@ -27,6 +27,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Interstate-Regular";
+  src: url("/Typographic/interstate/interstate-regular.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Interstate-light";
+  src: url("/Typographic/interstate/interstate-light.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   --color-primary: #e94e1b;
   --color-secondary: #252525;
@@ -50,7 +64,6 @@ button {
   cursor: pointer;
   background: none;
 }
-
 
 main {
   display: flex;
@@ -82,7 +95,7 @@ main section .Text h3 {
 }
 
 main section .Text p {
-  font-family: "Techovier", sans-serif;
+  font-family: "Interstate-light", sans-serif;
   font-size: 14px;
   font-weight: 100;
   font-style: oblique;
@@ -109,6 +122,9 @@ main section .Text p {
 form {
   width: 100%;
   background-color: #252525;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
 }
 
 form > .Form-Text {
@@ -116,9 +132,9 @@ form > .Form-Text {
   flex-flow: column wrap;
   align-items: baseline;
   gap: 2.5rem;
-  margin: 3rem 2rem;
+  margin: 3rem 0rem;
   justify-content: center;
-  width: 50%;
+  width: 55%;
 }
 
 form > .Form-Text > .Container {
@@ -134,10 +150,14 @@ form > .Form-Text > .Container > label {
 }
 
 form > .Form-Text > .Container > input[type="text"] {
-  height: 3.5rem;
-  width: 32rem;
+  height: 4.5rem;
+  width: 45rem;
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 10px;
+  font-family: "DaggerSquare", sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 @media screen and (min-width: 1440px) {

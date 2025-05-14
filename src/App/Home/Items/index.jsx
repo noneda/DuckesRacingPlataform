@@ -8,7 +8,9 @@ const HomeItems = () => {
         {new Array(3).fill(null).map((_, index) => (
           <div className="item" key={index}>
             <img src="/App/Home/Items/item.svg" alt="item" />
-            <h5>Item</h5>
+            <h5>
+              Item <br /> DUKE´S RACING
+            </h5>
           </div>
         ))}
       </div>

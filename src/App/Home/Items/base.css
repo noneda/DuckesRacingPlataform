@@ -26,10 +26,11 @@
 }
 
 .Look .items h5 {
-  font-family: "Techovier", sans-serif;
+  font-family: "DaggerSquare", sans-serif;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+  color: var(--color-quaternary);
 }
 
 .Look > .learn-more {
