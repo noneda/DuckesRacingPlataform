@@ -37,6 +37,14 @@ main .AboutUsPanel > .Above > .container {
   height: 75%;
 }
 
+main .AboutUsPanel > .Above > .container > p {
+  overflow: scroll;
+  width: auto;
+  height: 50%;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
 main .AboutUsPanel > .Above > img {
   width: 33%;
   height: 75%;

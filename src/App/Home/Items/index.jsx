@@ -12,7 +12,7 @@ const HomeItems = () => {
           </div>
         ))}
       </div>
-      <button className="btn">
+      <button className="btn-LearnMore">
         <h3>SABER MÁS</h3>
         <img src="/App/Home/Items/RightRow.svg" alt="" />
       </button>

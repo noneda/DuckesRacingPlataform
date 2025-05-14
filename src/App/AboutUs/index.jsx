@@ -68,6 +68,7 @@ const AboutUs = () => {
               <input type="text" name="Email" />
             </div>
           </section>
+          <button className="btn" type="submit"></button>
         </form>
       </section>
     </main>
