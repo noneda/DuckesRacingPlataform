@@ -1,0 +1,35 @@
+main > .Items-Events > div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4rem;
+  width: 20%;
+  height: 600px;
+}
+
+.Items-Events > div > h4 {
+  font-family: "DaggerSquare", sans-serif;
+  color: var(--color-primary);
+  font-size: 20px;
+  font-style: normal;
+  width: 50%;
+  margin: 0;
+  font-weight: 100;
+  text-align: center;
+}
+
+.Items-Events > div > img {
+  width: 170px;
+  height: 140px;
+}
+
+.Items-Events > div > .btn-LearnMore > h3 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.Items-Events > div > .btn-LearnMore > img {
+  width: 10px;
+}

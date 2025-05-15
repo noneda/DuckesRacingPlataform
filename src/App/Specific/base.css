@@ -1,0 +1,6 @@
+main .location {
+  width: 90%;
+  background-color: var(--color-dark);
+  margin-bottom: 4rem;
+  height: 400px;
+}

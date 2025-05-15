@@ -97,7 +97,7 @@ main .Others h2 {
   width: 70px;
 }
 
-.Others > ul > li > h5 {
+.Others > ul > li h5 {
   font-family: "DaggerSquare", sans-serif;
   font-size: 24px;
   font-weight: 100;

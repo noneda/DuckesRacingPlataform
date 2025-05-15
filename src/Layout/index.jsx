@@ -1,6 +1,8 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import "./base.css";
 const Layout = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <header>
@@ -14,17 +16,19 @@ const Layout = () => {
               <a href="/about-us">MÁS DE NOSOTROS</a>
             </li>
             <li>
-              <a href="#">INFORMACIÓN GENERAL</a>
+              <a href="https://www.xvideos.com/">INFORMACIÓN GENERAL</a>
             </li>
             <li>
-              <a href="#">NUESTROS PRODUCTOS</a>
+              <a href="https://www.pornhub.com/">NUESTROS PRODUCTOS</a>
             </li>
             <li>
-              <a href="#">NUESTROS PRODUCTOS</a>
+              <a href="/event">EVENTOS</a>
             </li>
           </ul>
         </nav>
-        <img src="/Layout/Header/icon-whatsapp.svg" alt="Icon WhatsApp" />
+        <button>
+          <img src="/Layout/Header/icon-whatsapp.svg" alt="Icon WhatsApp" />
+        </button>
       </header>
       <Outlet />
       <footer>
@@ -33,13 +37,19 @@ const Layout = () => {
             <h3>REDES</h3>
             <ul>
               <li>
-                <img src="/Layout/Footer/Icons/TikTok.svg" alt="TikTok" />
+                <button>
+                  <img src="/Layout/Footer/Icons/TikTok.svg" alt="TikTok" />
+                </button>
               </li>
               <li>
-                <img src="/Layout/Footer/Icons/WhatsApp.svg" alt="TikTok" />
+                <button>
+                  <img src="/Layout/Footer/Icons/WhatsApp.svg" alt="TikTok" />
+                </button>
               </li>
               <li>
-                <img src="/Layout/Footer/Icons/Instagram.svg" alt="TikTok" />
+                <button>
+                  <img src="/Layout/Footer/Icons/Instagram.svg" alt="TikTok" />
+                </button>
               </li>
             </ul>
           </div>
@@ -47,7 +57,14 @@ const Layout = () => {
         <img src="/Layout/Footer/line.svg" alt="Separate" />
         <section className="back-to-top">
           <div className="container">
-            <button>
+            <button
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
               <img src="/Layout/Footer/backtotop.svg" alt="Icon" />
               <h3>VOLVER ARRIBA</h3>
             </button>

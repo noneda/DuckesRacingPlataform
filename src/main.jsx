@@ -4,9 +4,12 @@ import { StrictMode } from "react";
 
 import "./base.css";
 import router from "./Router";
+import MainContext from "./Context";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <MainContext>
+      <RouterProvider router={router} />
+    </MainContext>
   </StrictMode>
 );

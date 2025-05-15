@@ -3,12 +3,13 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Layout";
 import Home from "../App/Home";
 import AboutUs from "../App/AboutUs";
+import Events from "../App/Events";
+import Specific from "../App/Specific";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Layout,
-    // errorElement: Err,
     children: [
       {
         index: true,
@@ -18,22 +19,14 @@ const router = createBrowserRouter([
         path: "about-us",
         Component: AboutUs,
       },
-      //   {
-      //     path: "general",
-      //     Component: General,
-      //   },
-      //   {
-      //     path: "events",
-      //     Component: Events,
-      //   },
-      //   {
-      //     path: "products",
-      //     Component: Products,
-      //   },
-      //   {
-      //     path: "item/:name",
-      //     Component: Item,
-      //   },
+      {
+        path: "event",
+        Component: Events,
+      },
+      {
+        path: "event/:name",
+        Component: Specific,
+      },
     ],
   },
 ]);
