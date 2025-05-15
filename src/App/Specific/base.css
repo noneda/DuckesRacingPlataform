@@ -77,6 +77,16 @@ main .Specific > h2 {
   margin-bottom: 1rem;
 }
 
+.Specific-Form {
+  justify-content: baseline;
+  align-items: baseline;
+  padding: 0;
+}
+.Specific-Info {
+  padding-left: 2rem;
+  height: 100%;
+}
+
 .Specific-Info > div > ul {
   font-family: "Interstate-light", sans-serif;
   padding: 0 1rem;

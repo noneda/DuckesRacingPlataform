@@ -1,5 +1,7 @@
 import "./base.css";
+import { useAboutUs } from "./hook";
 const AboutUs = () => {
+  const [action] = useAboutUs();
   return (
     <main>
       <section className="AboutUsPanel">
@@ -51,7 +53,7 @@ const AboutUs = () => {
           No solo se trata de motos, sino de crecer y disfrutar con otros que
           viven tu misma pasión.
         </p>
-        <form>
+        <form onSubmit={action}>
           <section className="Form-Info">
             <div>
               <h3>¿POR QUE UNIRTE A DUKES RACING?</h3>

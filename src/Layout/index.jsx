@@ -1,10 +1,12 @@
 import { Outlet, useNavigate } from "react-router-dom";
 import "./base.css";
+import PopUp from "../Assets/PopUp";
 const Layout = () => {
   const navigate = useNavigate();
 
   return (
     <>
+      <PopUp />
       <header>
         <img src="/Layout/Header/icon.svg" alt="Icon" />
         <nav>

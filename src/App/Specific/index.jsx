@@ -1,7 +1,7 @@
 import "./base.css";
 import { useSpecific } from "./hook";
 const Specific = () => {
-  const [event] = useSpecific();
+  const [event, action] = useSpecific();
   if (event === undefined) {
     return (
       <main>
@@ -64,7 +64,7 @@ const Specific = () => {
       <section className="ItsPart Specific">
         <p>Quieres ser parte de esta aventura DUKE´S RACING?</p>
         <h2>INSCRIBETE AQUI</h2>
-        <form>
+        <form onSubmit={action} className="Specific-Form">
           <section className="Form-Info Specific-Info">
             <div>
               <h3>DETALLES DEL EVENTO</h3>
@@ -104,7 +104,7 @@ const Specific = () => {
               <input
                 type="text"
                 name="CellphoneNumber"
-                placeholder="Ingresa tu numero telefónico"
+                placeholder="Ingresa tu numero de documento"
               />
             </div>
             <div className="Container">
@@ -123,20 +123,20 @@ const Specific = () => {
                 placeholder="Ingresa tu correo electronico"
               />
             </div>
-            <div className="form-link">
-              <h4>Quieres ir a un Evento?</h4>
-              <h4>
-                Click <a href="#">Aqui</a>
-              </h4>
+            <div className="Container">
+              <label htmlFor="Email">NUMERO DE TELOFONO*</label>
+              <input
+                type="text"
+                name="Email"
+                placeholder="Ingresa tu numero de telefónico"
+              />
             </div>
+
             <button className="btn-submit" type="submit">
               Continuar
             </button>
           </section>
         </form>
-        <section className="ButtomPicture">
-          <img src="/App/AboutUs/ButtomPicture.svg" alt="SAPAAAA" />
-        </section>
       </section>
     </main>
   );
