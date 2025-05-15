@@ -53,6 +53,10 @@ const Home = () => {
             <button
               onClick={() => {
                 navigate("/event");
+                 window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
               }}
             >
               <img src="/App/Home/events.svg" alt="Events" />
@@ -63,6 +67,10 @@ const Home = () => {
             <button
               onClick={() => {
                 navigate("/about-us");
+                 window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
               }}
             >
               <img src="/App/Home/AboutUs.svg" alt="AboutUs" />

@@ -12,6 +12,10 @@ const ItemEvent = ({ name, img, url }) => {
         className="btn-LearnMore"
         onClick={() => {
           navigate(url);
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
         }}
       >
         <h3>SABER MÁS</h3>
