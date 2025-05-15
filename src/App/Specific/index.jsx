@@ -2,8 +2,6 @@ import "./base.css";
 import { useSpecific } from "./hook";
 const Specific = () => {
   const [event] = useSpecific();
-  console.log(event === undefined);
-
   if (event === undefined) {
     return (
       <main>
@@ -16,6 +14,7 @@ const Specific = () => {
       </main>
     );
   }
+
   return (
     <main>
       <section className="EventsPanel">
@@ -37,7 +36,7 @@ const Specific = () => {
       <section className="location">
         <div className="info">
           <div className="title">
-            <h3>Ubicación</h3>
+            <h3>UBICACIÓN</h3>
           </div>
           <div className="data">
             <div>
@@ -53,11 +52,91 @@ const Specific = () => {
               <p>{event.location.address}</p>
             </div>
           </div>
-          <div className="map">
-            
-          </div>
         </div>
-        <div></div>
+        <div className="map">
+          <iframe
+            src={event.location.maps}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section className="ItsPart Specific">
+        <p>Quieres ser parte de esta aventura DUKE´S RACING?</p>
+        <h2>INSCRIBETE AQUI</h2>
+        <form>
+          <section className="Form-Info Specific-Info">
+            <div>
+              <h3>DETALLES DEL EVENTO</h3>
+              <ul>
+                <li>
+                  Fecha: <p>{event.details.data}</p>
+                </li>
+                <li>
+                  Lugar: <p>{event.details.place}</p>
+                </li>
+                <li>
+                  Participantes:<p>{event.details.participants}</p>
+                </li>
+                <li>
+                  Organización:<p>{event.details.organization}</p> 
+                </li>
+              </ul>
+              <h3>¿TIENES UNA DUDA O NECESITAS AYUDA?</h3>
+              <p>¡Descubre mas en las redes sociales!</p>
+              <h3>INSTAGRAM</h3>
+              <h3>
+                <a href="">@duke.racing_</a>
+              </h3>
+            </div>
+          </section>
+          <section className="Form-Text">
+            <div className="Container">
+              <label htmlFor="Name">NOMBRE COMPLETO*</label>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Ingresa tu nombre y apellido completo"
+              />
+            </div>
+            <div className="Container">
+              <label htmlFor="CellphoneNumber">NUMERO DE DOCUMENTO*</label>
+              <input
+                type="text"
+                name="CellphoneNumber"
+                placeholder="Ingresa tu numero telefónico"
+              />
+            </div>
+            <div className="Container">
+              <label htmlFor="City">CIUDAD/LUGAR DE RESIDENCIA*</label>
+              <input
+                type="text"
+                name="City"
+                placeholder="Ingresa tu dirección de residencia"
+              />
+            </div>
+            <div className="Container">
+              <label htmlFor="Email">CORREO ELECTRÓNICO*</label>
+              <input
+                type="text"
+                name="Email"
+                placeholder="Ingresa tu correo electronico"
+              />
+            </div>
+            <div className="form-link">
+              <h4>Quieres ir a un Evento?</h4>
+              <h4>
+                Click <a href="#">Aqui</a>
+              </h4>
+            </div>
+            <button className="btn-submit" type="submit">
+              Continuar
+            </button>
+          </section>
+        </form>
+        <section className="ButtomPicture">
+          <img src="/App/AboutUs/ButtomPicture.svg" alt="SAPAAAA" />
+        </section>
       </section>
     </main>
   );

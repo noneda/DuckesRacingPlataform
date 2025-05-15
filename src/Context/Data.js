@@ -10,7 +10,7 @@ const data = [
       place: "Tocancipá, Cundinamarca",
       address:
         "Kilómetro 24 Vía Briceño - Zipaquirá, Tocancipá, Cundinamarca, Colombia",
-      maps: "",
+      maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.870693556587!2d-73.947434!3d4.9611559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4071664885bf85%3A0xa454eb285d25984c!2sAut%C3%B3dromo%20de%20Tocancip%C3%A1!5e0!3m2!1ses!2sco!4v1747318923709!5m2!1ses!2sco",
     },
     details: {
       data: "11 de mayo",
@@ -31,7 +31,7 @@ const data = [
       name: "Racing Engine",
       place: "Bogotá",
       address: "AV Boyaca #74 - 90",
-      maps: "",
+      maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3976.4570622284405!2d-74.0958409!3d4.6903583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b3c38f5f843%3A0xf86be511caedd6df!2zQXYuIEJveWFjw6EgIzc0YTMxLCBCb2dvdMOh!5e0!3m2!1ses!2sco!4v1747319630968!5m2!1ses!2sco",
     },
     details: {
       data: "15 de Febrero",
@@ -53,7 +53,7 @@ const data = [
       place: "Tocancipá, Cundinamarca",
       address:
         "Kilómetro 24 Vía Briceño - Zipaquirá, Tocancipá, Cundinamarca, Colombia",
-      maps: "",
+      maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.870693556587!2d-73.947434!3d4.9611559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4071664885bf85%3A0xa454eb285d25984c!2sAut%C3%B3dromo%20de%20Tocancip%C3%A1!5e0!3m2!1ses!2sco!4v1747318923709!5m2!1ses!2sco",
     },
     details: {
       data: "16 de mayo",

@@ -6,7 +6,7 @@ const AboutUs = () => {
         <img src="/App/Banner-principal-1-2.webp" alt="Banner" />
         <div className="Above">
           <div className="container">
-            <h3>Dukes Racing</h3>
+            <h3>¡TE DAMOS LA BIENVENIDA A DUKES RACING!</h3>
             <p>
               Dukes Racing es una comunidad de la ciudad de Bogotá conformada
               por personas de distintas edades, apasionadas por el motociclismo,

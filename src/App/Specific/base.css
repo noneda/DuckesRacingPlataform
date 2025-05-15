@@ -2,5 +2,92 @@ main .location {
   width: 90%;
   background-color: var(--color-dark);
   margin-bottom: 4rem;
-  height: 400px;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 10rem;
+  padding: 3rem 1rem;
+}
+
+main .location > .info {
+  width: 45%;
+  height: 450px;
+
+  display: flex;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+main .location > .info > .title {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid var(--color-quaternary);
+}
+
+main .location > .info > .title > h3 {
+  font-family: "DaggerSquare", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 40px;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+main .location > .info > .data {
+  width: 100%;
+  height: auto;
+  padding-top: 1rem;
+}
+
+main .location > .info > .data > div {
+  padding: 1rem 0;
+}
+
+main .location > .info > .data > div > h5 {
+  font-family: "DaggerSquare", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  color: var(--color-quaternary);
+  margin: 0;
+}
+
+main .location > .info > .data > div > p {
+  font-family: "Interstate-light", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+
+main .location > .map > iframe {
+  width: 500px;
+  height: 450px;
+  border: none;
+}
+
+main .Specific > h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.Specific-Info > div > ul {
+  font-family: "Interstate-light", sans-serif;
+  padding: 0 1rem;
+}
+
+.Specific-Info > div > ul > li {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.Specific-Info > div > ul > li > p {
+  width: 75%;
 }

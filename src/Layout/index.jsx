@@ -16,10 +16,14 @@ const Layout = () => {
               <a href="/about-us">MÁS DE NOSOTROS</a>
             </li>
             <li>
-              <a href="https://www.xvideos.com/">INFORMACIÓN GENERAL</a>
+              <a href="https://www.youtube.com/watch?v=qqjf7QoYR2k">
+                INFORMACIÓN GENERAL
+              </a>
             </li>
             <li>
-              <a href="https://www.pornhub.com/">NUESTROS PRODUCTOS</a>
+              <a href="https://www.youtube.com/watch?v=qqjf7QoYR2k">
+                NUESTROS PRODUCTOS
+              </a>
             </li>
             <li>
               <a href="/event">EVENTOS</a>
