@@ -69,7 +69,7 @@ const AboutUs = () => {
               </p>
               <h3>INSTAGRAM</h3>
               <h3>
-                <a href="https://www.instagram.com/reel/DGGGBN6IVP2/?igsh=azllMG95dGFiNHd6">
+                <a href="https://www.instagram.com/duke.racing_">
                   @duke.racing_
                 </a>
               </h3>

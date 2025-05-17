@@ -67,7 +67,7 @@ const Layout = () => {
                 <button
                   onClick={() => {
                     window.location.href =
-                      "https://www.instagram.com/reel/DGGGBN6IVP2/?igsh=azllMG95dGFiNHd6";
+                      "https://www.instagram.com/duke.racing_/";
                   }}
                 >
                   <img src="/Layout/Footer/Icons/Instagram.svg" alt="TikTok" />
