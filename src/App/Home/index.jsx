@@ -1,13 +1,31 @@
 import "./base.css";
 import { useNavigate } from "react-router-dom";
 import HomeItems from "./Items";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+  const timer = [
+    "/App/Banner-principal-1-1.webp",
+    "/App/Banner-principal-1-2.webp",
+    "/App/Banner-principal-1-3.webp",
+  ];
+
+  const [carouse, setCarousel] = useState(timer[0]);
+
+  useEffect(() => {
+    let data = 0;
+    setInterval(() => {
+      data === timer.length - 1 ? (data = 0) : (data = data + 1);
+      setCarousel(timer[data]);
+      console.log(data);
+    }, 4000);
+  }, []);
+
   const navigate = useNavigate();
   return (
     <main>
       <section className="HomePage">
-        <img src="/App/Banner-principal-1-1.webp" alt="Home Image" width="" />
+        <img src={carouse} alt="Home Image" width="" />
         <div className="Above">
           <img src="/App/Home/Adobe.svg" alt="Adobe" />
         </div>

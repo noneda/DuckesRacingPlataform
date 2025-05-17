@@ -10,18 +10,9 @@ const AboutUs = () => {
           <div className="container">
             <h3>¡TE DAMOS LA BIENVENIDA A DUKES RACING!</h3>
             <p>
-              Dukes Racing es una comunidad de la ciudad de Bogotá conformada
-              por personas de distintas edades, apasionadas por el motociclismo,
-              la velocidad y la hermandad entre miembros, al ser una comunidad
-              que se conformó hace aproximadamente 1 año, su visibilidad es
-              limitada, lo que reduce la posibilidad de atraer nuevos
-              integrantes o seguidores. Mediante este proyecto se propone el
-              desarrollo de una estrategia de comunicación visual efectiva a
-              través de diferentes piezas gráficas que reflejan la esencia y
-              valores de la comunidad, respondiendo a las necesidades de esta
-              misma con el fin de fortalecer la identidad por medios digitales y
-              físicos y llamar la atención de nuevas personas que se
-              identifiquen, puedan y quieran pertenecer a dicho grupo.
+              Duke ́s Racing es una comunidad de moteros de la ciudad de Bogotá
+              conformada por personas de distintas edades, apasionadas por el
+              motociclismo, la velocidad y la hermandad entre miembros.
             </p>
           </div>
           <img src="/App/AboutUs/AboutUsContainer.webp" alt="" />

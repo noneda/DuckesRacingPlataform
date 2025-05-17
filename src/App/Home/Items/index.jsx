@@ -1,18 +1,19 @@
 import "./base.css";
 import { useNavigate } from "react-router-dom";
+import { useGlobalContext } from "../../../Context";
 
 const HomeItems = () => {
   const navigate = useNavigate();
-
+  const { colors } = useGlobalContext();
   return (
     <section className="Look">
       <h2>¡HECHA UN VISTASO A LA TIENDA DUKES RACING!</h2>
       <div className="items">
-        {new Array(3).fill(null).map((_, index) => (
+        {colors.map((_, index) => (
           <div className="item" key={index}>
-            <img src="/MockUps/GORRAAZUL.png" alt="item" />
+            <img src={`/MockUps/GORRA${_}.png`} alt="item" />
             <h5>
-              Gorra Azul <br /> DUKE´S RACING
+              Gorra {_} <br /> DUKE´S RACING
             </h5>
           </div>
         ))}

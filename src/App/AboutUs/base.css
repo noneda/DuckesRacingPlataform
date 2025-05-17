@@ -41,6 +41,8 @@ main .AboutUsPanel > .Above > .container {
 }
 
 main .AboutUsPanel > .Above > .container > p {
+  font-family: "Interstate-light", sans-serif;
+
   overflow: scroll;
   width: auto;
   height: 50%;
