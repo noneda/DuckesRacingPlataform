@@ -78,8 +78,18 @@ const Home = () => {
             </button>
           </li>
           <li>
-            <img src="/App/Home/Shopping.svg" alt="Shopping" />
-            <h5>TIENDA DUKES RACING</h5>
+            <button
+              onClick={() => {
+                navigate("/product");
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <img src="/App/Home/Shopping.svg" alt="Shopping" />
+              <h5>TIENDA DUKES RACING</h5>
+            </button>
           </li>
         </ul>
       </section>

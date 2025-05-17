@@ -31,17 +31,15 @@ const Product = () => {
           <button onClick={showPopUp}>COMPRAR</button>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>QUIZAS TE INTERESE</h2>
-        </div>
-        <ItemProduct
-          colors={colors}
-          name={isMockUp.name}
-          url={isMockUp.url}
-          clave={isMockUp.clave}
-        />
+      <section className="Products-title">
+        <h2>QUIZAS TE INTERECE</h2>
       </section>
+      <ItemProduct
+        colors={colors}
+        name={isMockUp.name}
+        url={isMockUp.url}
+        clave={isMockUp.clave}
+      />
     </main>
   );
 };

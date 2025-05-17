@@ -28,7 +28,12 @@ const Layout = () => {
             </li>
           </ul>
         </nav>
-        <button>
+        <button
+          onClick={() => {
+            window.location.href =
+              "http://chat.whatsapp.com/G2QM6m8d3wtDUvMwGNu9UJ";
+          }}
+        >
           <img src="/Layout/Header/icon-whatsapp.svg" alt="Icon WhatsApp" />
         </button>
       </header>
@@ -39,24 +44,39 @@ const Layout = () => {
             <h3>REDES</h3>
             <ul>
               <li>
-                <button>
+                <button
+                  onClick={() => {
+                    window.location.href =
+                      "https://www.tiktok.com/@dukes.racing?_t=ZS-8wQ0uvqOEA3&_r=1";
+                  }}
+                >
                   <img src="/Layout/Footer/Icons/TikTok.svg" alt="TikTok" />
                 </button>
               </li>
               <li>
-                <button>
+                <button
+                  onClick={() => {
+                    window.location.href =
+                      "http://chat.whatsapp.com/G2QM6m8d3wtDUvMwGNu9UJ";
+                  }}
+                >
                   <img src="/Layout/Footer/Icons/WhatsApp.svg" alt="TikTok" />
                 </button>
               </li>
               <li>
-                <button>
+                <button
+                  onClick={() => {
+                    window.location.href =
+                      "https://www.instagram.com/reel/DGGGBN6IVP2/?igsh=azllMG95dGFiNHd6";
+                  }}
+                >
                   <img src="/Layout/Footer/Icons/Instagram.svg" alt="TikTok" />
                 </button>
               </li>
             </ul>
           </div>
           <div className="general">
-            <h4>General</h4>
+            <h3>GENERAL</h3>
             <ul>
               <li>
                 <a href="/info">TERMINOS Y CONDICIONES</a>
