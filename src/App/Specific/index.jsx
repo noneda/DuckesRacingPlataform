@@ -124,14 +124,82 @@ const Specific = () => {
               />
             </div>
             <div className="Container">
-              <label htmlFor="Email">NUMERO DE TELOFONO*</label>
+              <label htmlFor="number">NUMERO DE TELOFONO*</label>
               <input
                 type="text"
-                name="Email"
+                name="number"
                 placeholder="Ingresa tu numero de telefónico"
               />
             </div>
 
+            {event.facture && (
+              <>
+                <div className="line" />
+                <h3>DATOS DE FACTURACIÓN</h3>
+                <div className="Container">
+                  <label htmlFor="NAME-TARGET">NOMBRE COMPLETO*</label>
+                  <input
+                    type="text"
+                    name="NAME-TARGET"
+                    placeholder="Ingresa tu nombre y apellido completo"
+                  />
+                </div>
+                <div className="Container">
+                  <label htmlFor="NUMBER-TARGET">NUMERO DE TELOFONO*</label>
+                  <input
+                    type="text"
+                    name="NUMBER-TARGET"
+                    placeholder="Ingresa tu numero de telefónico"
+                  />
+                </div>
+                <div className="Container">
+                  <label htmlFor="NUMBER-TARGET">CORREO ELECTRONICO*</label>
+                  <input
+                    type="text"
+                    name="NUMBER-TARGET"
+                    placeholder="Ingresa tu correo electronico"
+                  />
+                </div>
+                <label htmlFor="NUMBER-TARGET">CORREO ELECTRONICO*</label>
+                <div className="CreditCard">
+                  <input
+                    className="bigger"
+                    type="text"
+                    name="NUMBER-CREDIT-CARD"
+                    placeholder="1234 1234 1234 1234"
+                  />
+                  <input
+                    type="text"
+                    name="NUMBER-DATA-TARGET"
+                    placeholder="MM / AA"
+                  />
+                  <input type="text" name="NUMBER-TARGET" placeholder="CVC" />
+                </div>
+                <div className="Container">
+                  <label htmlFor="TITULAR-NAME-TARGET">
+                    NOMBRE DEL TITULAR*
+                  </label>
+                  <input
+                    type="text"
+                    name="TITULAR-NAME-TARGET"
+                    placeholder="CVC"
+                  />
+                </div>
+                <div className="Container">
+                  <label htmlFor="CC-TARGET">NUMERO DE DOCUMENTO*</label>
+                  <input
+                    type="text"
+                    name="CC-TARGET"
+                    placeholder="Ingresa tu numero de documento"
+                  />
+                </div>
+              </>
+            )}
+
+            <div className="Container Check">
+              <input type="checkbox" name="Accept" />
+              <label htmlFor="Accept">ACEPTAR TÉRMINOS Y CONDICIONES*</label>
+            </div>
             <button className="btn-submit" type="submit">
               Continuar
             </button>

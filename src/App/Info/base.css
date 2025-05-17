@@ -1,0 +1,71 @@
+main.info > section {
+  width: 95%;
+  flex-flow: column wrap;
+  justify-content: baseline;
+  align-items: baseline;
+  border-bottom: 1px solid var(--color-quaternary);
+}
+
+main.info > .title {
+  color: var(--color-primary);
+  padding: 0;
+}
+
+main.info > .title > h1 {
+  font-family: "DaggerSquare-Oblique", sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+main.info > .title > h4 {
+  font-family: "DaggerSquare", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+main.info > .terms > div > h3 {
+  font-family: "DaggerSquare-Oblique", sans-serif;
+  color: var(--color-quaternary);
+  font-size: 20px;
+}
+
+main.info > .terms > div > p {
+  font-family: "Interstate-light", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+main.info > .Asks {
+  color: var(--color-primary);
+}
+
+main.info > .Asks > h1 {
+  font-family: "DaggerSquare-Oblique", sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+main.info > section > h4 {
+  font-family: "DaggerSquare", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+main.info > .Asks > .container {
+  background-color: var(--color-dark);
+  width: -webkit-fill-available;
+  padding: 1rem 4rem;
+}
+
+main.info > .Asks > .container > div > h3 {
+  font-family: "DaggerSquare-Oblique", sans-serif;
+  font-size: 20px;
+  color: var(--color-quaternary);
+}
+
+main.info > .Asks > .container > div > p {
+  font-family: "Interstate-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+}

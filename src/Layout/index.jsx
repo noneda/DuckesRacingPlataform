@@ -18,9 +18,7 @@ const Layout = () => {
               <a href="/about-us">MÁS DE NOSOTROS</a>
             </li>
             <li>
-              <a href="https://www.youtube.com/watch?v=qqjf7QoYR2k">
-                INFORMACIÓN GENERAL
-              </a>
+              <a href="/info">INFORMACIÓN GENERAL</a>
             </li>
             <li>
               <a href="https://www.youtube.com/watch?v=qqjf7QoYR2k">
@@ -56,6 +54,20 @@ const Layout = () => {
                 <button>
                   <img src="/Layout/Footer/Icons/Instagram.svg" alt="TikTok" />
                 </button>
+              </li>
+            </ul>
+          </div>
+          <div className="general">
+            <h4>General</h4>
+            <ul>
+              <li>
+                <a href="/info">TERMINOS Y CONDICIONES</a>
+              </li>
+              <li>
+                <a href="/info#asks">PREGUNTAS FRECUENTES</a>
+              </li>
+              <li>
+                <a href="">CONTACTO</a>
               </li>
             </ul>
           </div>

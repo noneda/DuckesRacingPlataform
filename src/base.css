@@ -135,6 +135,8 @@ form > .Form-Text {
   margin: 3rem 0rem;
   justify-content: center;
   width: 55%;
+  padding-left: 2rem;
+  border-left: 1px solid white;
 }
 
 form > .Form-Text > .Container {
@@ -149,6 +151,16 @@ form > .Form-Text > .Container > label {
   font-size: 20px;
 }
 
+form > .Form-Text > .Check {
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+form > .Form-Text > .Check > input[type="checkbox"] {
+  height: 2rem;
+  width: 2rem;
+}
+
 form > .Form-Text > .Container > input[type="text"] {
   height: 4.5rem;
   width: 35rem;
@@ -158,6 +170,12 @@ form > .Form-Text > .Container > input[type="text"] {
   font-family: "DaggerSquare", sans-serif;
   font-size: 20px;
   color: white;
+}
+
+@media only screen and (min-width: 1750px) {
+  form > .Form-Text > .Container > input[type="text"] {
+    width: 55rem;
+  }
 }
 
 .btn-LearnMore {

@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </section>
       <video height="800px" controls>
-        <source src="/App/Home/OtherVideo.mp4" type="video/mp4" />
+        <source src="/App/Home/Video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <section className="OurBoss">
@@ -53,7 +53,7 @@ const Home = () => {
             <button
               onClick={() => {
                 navigate("/event");
-                 window.scrollTo({
+                window.scrollTo({
                   top: 0,
                   behavior: "smooth",
                 });
@@ -67,7 +67,7 @@ const Home = () => {
             <button
               onClick={() => {
                 navigate("/about-us");
-                 window.scrollTo({
+                window.scrollTo({
                   top: 0,
                   behavior: "smooth",
                 });

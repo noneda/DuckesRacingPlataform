@@ -53,7 +53,42 @@ footer .info {
   display: flex;
   flex-flow: row, wrap;
   align-items: baseline;
+  justify-content: space-between;
   height: 45vh;
+}
+
+footer > .info > .general {
+  font-family: "DaggerSquare";
+  width: 20rem;
+}
+
+footer > .info > .general > h4 {
+  font-size: 24px;
+}
+
+footer .info .general > ul {
+  padding: 0;
+}
+
+footer .info .general > ul > li {
+  list-style-type: none;
+}
+
+footer .info .general > ul > li {
+  list-style-type: none;
+  padding-bottom: 1rem;
+}
+
+footer .info .general ul li > a {
+  color: white;
+  font-family: "DaggerSquare", sans-serif;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 16px;
+}
+footer .info .general ul li > a :hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 footer .info .socials {
