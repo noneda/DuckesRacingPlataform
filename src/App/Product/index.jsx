@@ -28,6 +28,7 @@ const Product = () => {
             <h4>COP {isMockUp.data.price}</h4>
             <p>{isMockUp.data.desc}</p>
           </section>
+          <button onClick={showPopUp}>COMPRAR</button>
         </div>
       </section>
       <section>

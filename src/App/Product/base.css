@@ -26,6 +26,8 @@ main .Product > .Picture > img {
 
 main .Product > .Text {
   width: 33%;
+  height: 90%;
+  position: relative;
   align-self: flex-start;
   padding-top: 1rem;
 }
@@ -51,4 +53,15 @@ main .Product > .Text > section > h4 {
 main > .Product > .Text > section > p {
   font-family: "Interstate-Regular", sans-serif;
   font-size: 14px;
+}
+
+main > .Product > .Text > button {
+  position: absolute;
+  color: white;
+  font-family: "Interstate-Regular", sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  background-color: var(--color-primary);
+  top: 95%;
+  left: 45%;
 }
