@@ -67,3 +67,58 @@ const data = [
 ];
 
 export default data;
+
+export const ColorsMockUps = ["AZUL", "BLANCO", "NARANJA", "NEGRO"];
+
+export const MockUps = [
+  {
+    name: "Gorras DUKE´S RACING",
+    clave: "GORRA",
+    url: "/MockUps/GORRA",
+    data: {
+      name: "Gorra",
+      price: "$29.000",
+      desc: "Gorra con un diseño moderno, deportivo y con el logo distintivo DUKE'S RACING.",
+    },
+  },
+  {
+    name: "Chaquetas DUKE´S RACING",
+    clave: "CHAQUETA",
+    url: "/MockUps/CHAQUETA",
+    data: {
+      name: "Chaqueta",
+      price: "$90.000",
+      desc: "Chaqueta diseñada para la comodidad, resistencia al viento y para lucir a la hora de rodar o para el día a día.",
+    },
+  },
+  {
+    name: "Buzos DUKE´S RACING",
+    clave: "BUZO",
+    url: "/MockUps/BUZO",
+    data: {
+      name: "Gorra",
+      price: "$79.600",
+      desc: "Calidez, suavidad y un diseño urbano inspirado en la adrenalina y velocidad, ideal para usarlo en cualquier momento.",
+    },
+  },
+  {
+    name: "Toallas DUKE´S RACING",
+    clave: "TOALLA",
+    url: "/MockUps/TOALLA",
+    data: {
+      name: "Toallas",
+      price: "$11.200",
+      desc: "Toallas en tela absorbente y suave. Luce con el diseño con el logo de DUKES RACING, para entrenamientos y viajes.",
+    },
+  },
+  {
+    name: "Pescuezos DUKE´S RACING",
+    clave: "PESCUEZO",
+    url: "/MockUps/CUELLERO",
+    data: {
+      name: "Pescuezos",
+      price: "$27.000",
+      desc: "Fabricado con materiales livianos, transpirables y de secado rápido, ideal para protegerse del viento, el sol y el polvo en carretera.",
+    },
+  },
+];

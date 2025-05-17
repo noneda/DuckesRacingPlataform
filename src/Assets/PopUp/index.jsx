@@ -3,8 +3,6 @@ import { useGlobalContext } from "../../Context";
 
 const PopUp = () => {
   const { show } = useGlobalContext();
-  console.log(show);
-
   return show ? (
     <div className="PopUp">
       <div className="container">
@@ -36,7 +34,7 @@ const PopUp = () => {
               marginBottom: "1rem",
             }}
           >
-            !Enviado correctamente¡
+            {/* {title} */}
           </h2>
           <h3
             style={{
@@ -45,7 +43,7 @@ const PopUp = () => {
               fontFamily: "Interstate-light , sans-serif",
             }}
           >
-            Revisa el correo para confirmar la inscripción{" "}
+            {/* {text} */}
           </h3>
         </div>
       </div>

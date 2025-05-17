@@ -109,7 +109,7 @@ main .ItsPart > p {
 
 form > .Form-Info {
   width: 35%;
-  margin: 2rem 0;
+  margin: 2rem 2rem;
 }
 form > .Form-Info > div {
   width: 100%;

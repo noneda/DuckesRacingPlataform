@@ -83,7 +83,6 @@ main .Specific > h2 {
   padding: 0;
 }
 .Specific-Info {
-  padding-left: 2rem;
   height: 100%;
 }
 
@@ -118,7 +117,13 @@ form > .Form-Text > .CreditCard {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 96%;
+  width: 36.5rem;
+}
+
+@media only screen and (min-width: 1750px) {
+  form > .Form-Text > .CreditCard {
+    width: 56.5rem;
+  }
 }
 
 form > .Form-Text > .CreditCard > .bigger {

@@ -21,9 +21,7 @@ const Layout = () => {
               <a href="/info">INFORMACIÓN GENERAL</a>
             </li>
             <li>
-              <a href="https://www.youtube.com/watch?v=qqjf7QoYR2k">
-                NUESTROS PRODUCTOS
-              </a>
+              <a href="/product">NUESTROS PRODUCTOS</a>
             </li>
             <li>
               <a href="/event">EVENTOS</a>

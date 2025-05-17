@@ -6,6 +6,8 @@ import AboutUs from "../App/AboutUs";
 import Events from "../App/Events";
 import Specific from "../App/Specific";
 import Info from "../App/Info";
+import OursProducts from "../App/OursProducts";
+import Product from "../App/Product";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "info",
         Component: Info,
+      },
+      {
+        path: "product",
+        Component: OursProducts,
+      },
+      {
+        path: "product/:name",
+        Component: Product,
       },
       {
         path: "event",

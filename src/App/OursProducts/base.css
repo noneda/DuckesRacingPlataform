@@ -1,0 +1,60 @@
+main > .Products-Hero > .Above > h2 {
+  width: 50rem;
+  font-size: 64px;
+}
+
+main > .Products-Hero > .Above {
+  font-family: "DaggerSquare", sans-serif;
+}
+
+main > .Products-Hero > .Above > section {
+  width: 10rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+main > .Products-Hero > .Above > section > div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+main > .Products-Hero > .Above > section > div > h1 {
+  font-weight: bolder;
+  color: var(--color-tertiary);
+  font-size: 96px;
+
+  margin: 0;
+}
+
+main > .Products-Hero > .Above > section > div > h3 {
+  font-weight: bolder;
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  width: 5rem;
+  text-align: justify;
+}
+
+main > .Products-Hero > .Above > h5 {
+  color: white;
+  font-size: 24px;
+}
+
+main > .Products-title {
+  width: 95%;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-bottom: 0;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+main > .Products-title > h2 {
+  font-family: "DaggerSquare", sans-serif;
+  color: var(--color-primary);
+  font-weight: bolder;
+  font-size: 53px;
+  margin: 0;
+}
