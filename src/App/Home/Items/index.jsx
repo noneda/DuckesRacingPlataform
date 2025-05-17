@@ -10,7 +10,7 @@ const HomeItems = () => {
       <div className="items">
         {new Array(3).fill(null).map((_, index) => (
           <div className="item" key={index}>
-            <img src="/public/MockUps/GORRAAZUL.png" alt="item" />
+            <img src="/MockUps/GORRAAZUL.png" alt="item" />
             <h5>
               Gorra Azul <br /> DUKE´S RACING
             </h5>
