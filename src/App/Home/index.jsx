@@ -18,7 +18,7 @@ const Home = () => {
       data === timer.length - 1 ? (data = 0) : (data = data + 1);
       setCarousel(timer[data]);
       console.log(data);
-    }, 4000);
+    }, 2000);
   }, []);
 
   const navigate = useNavigate();
