@@ -55,8 +55,9 @@ const AboutUs = () => {
               </ul>
               <h3>¿TIENES UNA DUDA O NECESITAS AYUDA?</h3>
               <p>
-                Si necesitas más información sobre este evento o deseas resolver
-                cualquier duda antes de inscribirte, no dudes en contactarnos:
+                Si necesitas más información sobre nuestra comunidad y deseas
+                resolver cualquier duda antes de ser parte de esta aventura, no
+                dudes en contactarnos:
               </p>
               <h3>INSTAGRAM</h3>
               <h3>

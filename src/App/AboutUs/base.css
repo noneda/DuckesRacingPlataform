@@ -42,12 +42,15 @@ main .AboutUsPanel > .Above > .container {
 
 main .AboutUsPanel > .Above > .container > p {
   font-family: "Interstate-light", sans-serif;
-
   overflow: scroll;
   width: auto;
   height: 50%;
-  -ms-overflow-style: none; /* IE and Edge */
+  -ms-overflow-style: none;
   scrollbar-width: none;
+  font-size: 22px;
+  text-align: left;
+  font-style: italic;
+  font-weight: 100;
 }
 
 main .AboutUsPanel > .Above > img {
@@ -66,18 +69,6 @@ main .AboutUsPanel > .Above > .container > h3 {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 5rem;
-}
-
-main .AboutUsPanel > .Above > .container > p {
-  font-family: "Techovier", sans-serif;
-  font-size: 14px;
-  text-align: left;
-  font-style: italic;
-  font-weight: 100;
-
-  font-size: 14px;
-  line-height: 25px;
-  text-align: justify;
 }
 
 main .WhoIsItFor {
@@ -110,7 +101,7 @@ main .ItsPart > p {
 }
 
 form > .Form-Info {
-  width: 35%;
+  width: 25%;
   margin: 2rem 2rem;
 }
 form > .Form-Info > div {
