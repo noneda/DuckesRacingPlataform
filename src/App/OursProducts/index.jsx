@@ -29,7 +29,7 @@ const OursProducts = () => {
         </div>
       </section>
       <section className="Products-title">
-        <h2>CAMPEONATO INTERCUP VITRIX</h2>
+        <h2>PRODUCTOS DUKE´S RACING</h2>
       </section>
       {mockUps.map((element, index) => (
         <ItemProduct
